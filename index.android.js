@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class ChatApp extends Component {
+export default class jogchat_ios extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ChatApp', () => ChatApp);
+AppRegistry.registerComponent('jogchat_ios', () => jogchat_ios);
