@@ -33,7 +33,8 @@ class LoginUI extends Component {
                        ref="avatar"/>
                 <Divider />
 
-                {this.props.authorizing ? <Spinner /> : <LoginButton />}
+                <LoginButton />
+
             </Screen>
         );
     }

@@ -40,6 +40,7 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* jogchat_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jogchat_iosTests.m */; };
 		3714F06B767849369A17004D /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B1DD2F17CF4543B6EB1088 /* Rubik-Bold.ttf */; };
+		41DDA8C88AB047D8AC241764 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB62947878D46339F70371B /* libRNDeviceInfo.a */; };
 		4AB769C468EF474DA8780892 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C081F6FE50845F8A072C6DC /* MaterialIcons.ttf */; };
 		64CA40F5223F47CBBB2AFCE3 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BA22428B84D8D93221D21 /* Rubik-Black.ttf */; };
 		674E7091163F45D792664595 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83061B7891224C0289CA03AB /* FontAwesome.ttf */; };
@@ -68,6 +69,8 @@
 		B76A1A6E1F666F3400196C7E /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76A1A6C1F666F3400196C7E /* FirebaseMessaging.framework */; };
 		B76A1A6F1F666F3400196C7E /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76A1A6D1F666F3400196C7E /* Protobuf.framework */; };
 		B76A1AA71F66756000196C7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B76A1AA61F66755F00196C7E /* GoogleService-Info.plist */; };
+		B76A1AAA1F66801C00196C7E /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B76A1AA81F66801C00196C7E /* main.jsbundle */; };
+		B76A1AAB1F66801C00196C7E /* main.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = B76A1AA91F66801C00196C7E /* main.jsbundle.meta */; };
 		B88EF15D9550465CA77A92BC /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F55E02178AA4BEBA9BEC2C3 /* libRNFIRMessaging.a */; };
 		CBEC5E0433434ADBB744F47C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC2AF55F78474D9097A1CA2C /* Octicons.ttf */; };
 		D63EA9DE8D4C492483E6AE45 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39933A357E124F5D8227ABD4 /* Ionicons.ttf */; };
@@ -306,6 +309,13 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNFIRMessaging;
 		};
+		B76A1ADF1F66834300196C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB2F7B866E74F7DA859EA77 /* RNDeviceInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA5891D81BA9A9FC002B4DB2;
+			remoteInfo = RNDeviceInfo;
+		};
 		B79992731F663274003448B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -371,10 +381,12 @@
 		4C6BA22428B84D8D93221D21 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
 		4F55E02178AA4BEBA9BEC2C3 /* libRNFIRMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFIRMessaging.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6FB2F7B866E74F7DA859EA77 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		797C28EA33FF477B894DB63F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		7CAAE97D4F294A028D39094F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		7D366AE15E2D4711A0939133 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/@shoutem/ui/fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		7EB62947878D46339F70371B /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
 		7FC1657156FB4B1398E9C358 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		80829A081FCB4747B42E6ED7 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		83061B7891224C0289CA03AB /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
@@ -398,6 +410,8 @@
 		B76A1A6C1F666F3400196C7E /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/Messaging/FirebaseMessaging.framework; sourceTree = "<group>"; };
 		B76A1A6D1F666F3400196C7E /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = Frameworks/Messaging/Protobuf.framework; sourceTree = "<group>"; };
 		B76A1AA61F66755F00196C7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B76A1AA81F66801C00196C7E /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		B76A1AA91F66801C00196C7E /* main.jsbundle.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle.meta; sourceTree = "<group>"; };
 		B79992E41F6668EC003448B9 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = jogchat_ios/Frameworks; sourceTree = "<group>"; };
 		B79992E51F6668F6003448B9 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = jogchat_ios/Frameworks; sourceTree = "<group>"; };
 		BC2AF55F78474D9097A1CA2C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -439,6 +453,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				B88EF15D9550465CA77A92BC /* libRNFIRMessaging.a in Frameworks */,
+				41DDA8C88AB047D8AC241764 /* libRNDeviceInfo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +570,8 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				B76A1AA61F66755F00196C7E /* GoogleService-Info.plist */,
+				B76A1AA81F66801C00196C7E /* main.jsbundle */,
+				B76A1AA91F66801C00196C7E /* main.jsbundle.meta */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -647,6 +664,7 @@
 				20589B6D47194CCAB1CD854E /* BVLinearGradient.xcodeproj */,
 				B315FE628D8445B297A11ACE /* RNShare.xcodeproj */,
 				D7FDEFDA57F54FE0BBE7353F /* RNFIRMessaging.xcodeproj */,
+				6FB2F7B866E74F7DA859EA77 /* RNDeviceInfo.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -723,6 +741,14 @@
 			isa = PBXGroup;
 			children = (
 				B76A1AA31F66723400196C7E /* libRNFIRMessaging.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76A1ABC1F66834300196C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76A1AE01F66834300196C7E /* libRNDeviceInfo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -919,6 +945,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = B76A1ABC1F66834300196C7E /* Products */;
+					ProjectRef = 6FB2F7B866E74F7DA859EA77 /* RNDeviceInfo.xcodeproj */;
 				},
 				{
 					ProductGroup = B76A1A7F1F66723400196C7E /* Products */;
@@ -1161,6 +1191,13 @@
 			remoteRef = B76A1AA21F66723400196C7E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B76A1AE01F66834300196C7E /* libRNDeviceInfo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNDeviceInfo.a;
+			remoteRef = B76A1ADF1F66834300196C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B79992741F663274003448B9 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1215,6 +1252,7 @@
 				CBEC5E0433434ADBB744F47C /* Octicons.ttf in Resources */,
 				8A868BD74468442FA278B704 /* SimpleLineIcons.ttf in Resources */,
 				2127477F6D2242889F6624A2 /* Zocial.ttf in Resources */,
+				B76A1AAA1F66801C00196C7E /* main.jsbundle in Resources */,
 				AF17F605E2184E19BD13A55E /* rubicon-icon-font.ttf in Resources */,
 				64CA40F5223F47CBBB2AFCE3 /* Rubik-Black.ttf in Resources */,
 				119DF87F71F7427F8C4AA4D3 /* Rubik-BlackItalic.ttf in Resources */,
@@ -1225,6 +1263,7 @@
 				75A857DA1BEA4DCF8A947416 /* Rubik-Light.ttf in Resources */,
 				200A698896594658990A1B0A /* Rubik-LightItalic.ttf in Resources */,
 				9EEB7D91E3CB419DA73780D4 /* Rubik-Medium.ttf in Resources */,
+				B76A1AAB1F66801C00196C7E /* main.jsbundle.meta in Resources */,
 				6791142B341C4CE6B39D9B92 /* Rubik-MediumItalic.ttf in Resources */,
 				0BA66C8DF7BD44C3912C137D /* Rubik-Regular.ttf in Resources */,
 			);
@@ -1358,12 +1397,14 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = jogchat_iosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1387,12 +1428,14 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = jogchat_iosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1424,6 +1467,7 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = jogchat_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1456,6 +1500,7 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = jogchat_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1488,11 +1533,13 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = "jogchat_ios-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1525,11 +1572,13 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 				);
 				INFOPLIST_FILE = "jogchat_ios-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1560,6 +1609,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.jogchat_ios-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1584,6 +1634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.jogchat_ios-tvOSTests";
