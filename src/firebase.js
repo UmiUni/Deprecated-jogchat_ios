@@ -3,11 +3,12 @@ import * as firebase from 'firebase';
 
 // should go in a secret file
 const config = {
-    apiKey: "AIzaSyDLFqbBXZJKo-GTtqWCWtDgmENuy4uaHpQ",
-    authDomain: "chatapp-6c33c.firebaseapp.com",
-    databaseURL: "https://chatapp-6c33c.firebaseio.com",
-    storageBucket: "chatapp-6c33c.appspot.com",
-    messagingSenderId: "566006872694"
+    apiKey: "AIzaSyDu47TipNYfVhtyZ4gZg-XS51pDYbOGclM",
+    authDomain: "jogchat-0209.firebaseapp.com",
+    databaseURL: "https://jogchat-0209.firebaseio.com",
+    projectId: "jogchat-0209",
+    storageBucket: "jogchat-0209.appspot.com",
+    messagingSenderId: "935825028050"
 };
 firebase.initializeApp(config);
 

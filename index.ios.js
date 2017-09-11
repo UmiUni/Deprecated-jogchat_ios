@@ -21,4 +21,4 @@ export default class ChatApp extends Component {
     }
 }
 
-AppRegistry.registerComponent('ChatApp', () => ChatApp);
+AppRegistry.registerComponent('jogchat_ios', () => ChatApp);
